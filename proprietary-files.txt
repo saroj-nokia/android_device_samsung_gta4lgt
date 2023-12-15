@@ -16,9 +16,7 @@ vendor/etc/plmn_delta_hktw.bin
 vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
 vendor/etc/sec_config_oem
-vendor/lib64/libconfigdb.so
 vendor/lib64/libengmode_client.so
-vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqmiextservices.so
@@ -28,8 +26,6 @@ vendor/lib64/libril_sem.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libsystem_health_mon.so
-vendor/lib64/libvkmanager_vendor.so
-vendor/lib64/libxml.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
@@ -38,6 +34,7 @@ vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio@2.2.so
 
 # CNE
+vendor/app/CneApp/CneApp.apk
 vendor/bin/cnd
 vendor/bin/mutualex
 vendor/etc/cne/mwqem.conf
@@ -126,3 +123,6 @@ vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T505C.mbn|38a7fd3da30f4
 
 # WiFi firmware (for SM-T505N model - from Samsung package version T505NDXS5CWI2)
 vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T505N.mbn|6d7336c4390679fe0c6cc17bb6331b1a19ac93c1
+
+# WiFi firmware (for SM-T507 model - from Samsung package version T507JXS5CWI2)
+vendor/firmware/wlanmdsp.mbn:vendor/firmware/wlanmdsp_SM-T507.mbn|dbc61672b0db63d20eb4f4cd2de429f35460ef91
