@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gta4l.mk
+    $(LOCAL_DIR)/lmodroid_gta4l.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gta4l-user \
-    lineage_gta4l-userdebug \
-    lineage_gta4l-eng
+    lmodroid_gta4l-user \
+    lmodroid_gta4l-userdebug \
+    lmodroid_gta4l-eng
