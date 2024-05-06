@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lmodroid_gta4l.mk
+    $(LOCAL_DIR)/voltage_gta4l.mk
 
 COMMON_LUNCH_CHOICES := \
-    lmodroid_gta4l-user \
-    lmodroid_gta4l-userdebug \
-    lmodroid_gta4l-eng
+    voltage_gta4l-user \
+    voltage_gta4l-userdebug \
+    voltage_gta4l-eng

@@ -21,23 +21,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from gta4l device
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lmodroid/config/common_full_tablet.mk)
+# Inherit some common Voltage stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+
+# Voltage
+Voltage_MAINTAINER := YFMARCO
+Voltage_CHIPSET := SM6115
+Voltage_BATTERY := 7040mAh
+Voltage_DISPLAY := 1200x2000
+WITH_GMS := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := lmodroid_gta4l
+PRODUCT_NAME := voltage_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_SYSTEM_NAME := gta4lxx
 
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
-# Use the latest approved GMS identifiers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=gta4lxx \
-    PRIVATE_BUILD_DESC="gta4lxx-user 12 SP1A.210812.016 T505XXS6CWI2 release-keys"
-
-BUILD_FINGERPRINT := "samsung/gta4lxx/qssi:12/SP1A.210812.016/T505XXS6CWI2:user/release-keys"
+PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
