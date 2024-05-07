@@ -24,11 +24,11 @@ $(call inherit-product, device/samsung/gta4l/device.mk)
 # Inherit some common Voltage stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-# Voltage
-Voltage_MAINTAINER := YFMARCO
-Voltage_CHIPSET := SM6115
-Voltage_BATTERY := 7040mAh
-Voltage_DISPLAY := 1200x2000
+# VOLTAGE
+VOLTAGE_MAINTAINER := YFMARCO
+VOLTAGE_CHIPSET := SM6115
+VOLTAGE_BATTERY := 7040mAh
+VOLTAGE_DISPLAY := 1200x2000
 WITH_GMS := false
 
 # Device identifier. This must come after all inclusions

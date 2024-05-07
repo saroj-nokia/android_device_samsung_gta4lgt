@@ -1,6 +1,8 @@
 [
   {
-    "repository": "YFMARCO/android_device_samsung_gta4l-common",
+    "remote": "YFMARCO",
+    "repository": "android_device_samsung_gta4l-common",
     "target_path": "device/samsung/gta4l-common"
+    "branch": "voltage-14"
   }
 ]
