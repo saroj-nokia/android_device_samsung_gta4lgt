@@ -26,6 +26,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 BLAZE_MAINTAINER := YFMARCO
 BLAZE_CHIPSET := SM6115
 BLAZE_BATTERY := 7040mAh
+BLAZE_DISPLAY := 2000x1200
 WITH_GMS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
