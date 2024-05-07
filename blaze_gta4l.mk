@@ -22,13 +22,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
 # Inherit some common Voltage stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+$(call inherit-product, vendor/Blaze/config/common_full_phone.mk)
 
 # Voltage
-Voltage_MAINTAINER := YFMARCO
-Voltage_CHIPSET := SM6115
-Voltage_BATTERY := 7040mAh
-Voltage_DISPLAY := 1200x2000
+Blaze_MAINTAINER := YFMARCO
+Blaze_CHIPSET := SM6115
+Blaze_BATTERY := 7040mAh
+Blaze_DISPLAY := 1200x2000
 WITH_GMS := false
 
 # Device identifier. This must come after all inclusions
