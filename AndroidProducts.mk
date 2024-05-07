@@ -17,6 +17,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/blaze_gta4l.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_gta4l-ap1a-user \
-    blaze_gta4l-ap1a-userdebug \
-    blaze_gta4l-ap1a-eng
+    blaze_gta4l-user \
+    blaze_gta4l-userdebug \
+    blaze_gta4l-eng
