@@ -21,19 +21,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from gta4l device
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
-# Inherit some common Voltage stuff.
+# Inherit common Blaze configurations
 $(call inherit-product, vendor/Blaze/config/common_full_phone.mk)
-
-# Voltage
-Blaze_MAINTAINER := YFMARCO
-Blaze_CHIPSET := SM6115
-Blaze_BATTERY := 7040mAh
-Blaze_DISPLAY := 1200x2000
+BLAZE_MAINTAINER := YFMARCO
+BLAZE_CHIPSET := SM6115
+BLAZE_BATTERY := 7040mAh
+BLAZE_DISPLAY := 1200x2000
 WITH_GMS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := voltage_gta4l
+PRODUCT_NAME := blaze_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
