@@ -22,15 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
 # Inherit common Blaze configurations
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
-BLAZE_MAINTAINER := YFMARCO
-BLAZE_CHIPSET := SM6115
-BLAZE_BATTERY := 7040mAh
-BLAZE_DISPLAY := 2000x1200
+$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
+
 WITH_GMS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_USES_AOSP_RECOVERY := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Boot Animation
@@ -39,7 +35,7 @@ TARGET_SCREEN_WIDTH := 1200
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := blaze_gta4l
+PRODUCT_NAME := lineage_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung

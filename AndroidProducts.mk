@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_gta4l.mk
+    $(LOCAL_DIR)/lineage_gta4l.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_gta4l-user \
-    blaze_gta4l-userdebug \
-    blaze_gta4l-eng
+    lineage_gta4l-ap1a-user \
+    lineage_gta4l-ap1a-userdebug \
+    lineage_gta4l-ap1a-eng
