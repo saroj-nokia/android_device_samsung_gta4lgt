@@ -17,6 +17,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/evolution_gta4l.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_gta4l-ap1a-user \
-    evolution_gta4l-ap1a-userdebug \
-    evolution_gta4l-ap1a-eng
+    evolution_gta4l-user \
+    evolution_gta4l-userdebug \
+    evolution_gta4l-eng
