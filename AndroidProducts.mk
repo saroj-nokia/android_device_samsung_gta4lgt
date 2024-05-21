@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_gta4l.mk
+    $(LOCAL_DIR)/evolution_gta4l.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_gta4l-ap1a-user \
-    aosp_gta4l-ap1a-userdebug \
-    aosp_gta4l-ap1a-eng
+    evolution_gta4l-ap1a-user \
+    evolution_gta4l-ap1a-userdebug \
+    evolution_gta4l-ap1a-eng

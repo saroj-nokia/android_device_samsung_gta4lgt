@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
 # Inherit common Blaze configurations
-$(call inherit-product, vendor/aosp/config/common_full_tablet.mk)
+$(call inherit-product, vendor/evolution/config/common_full_tablet.mk)
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
@@ -37,7 +37,7 @@ TARGET_SCREEN_WIDTH := 1200
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := aosp_gta4l
+PRODUCT_NAME := evolution_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
