@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/voltage_gta4l.mk
+
+COMMON_LUNCH_CHOICES := \
+    voltage_gta4l-ap2a-user \
+    voltage_gta4l-ap2a-userdebug \
+    voltage_gta4l-ap2a-eng
